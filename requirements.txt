@@ -1,0 +1,13 @@
+numpy
+pandas
+scipy
+scikit-learn
+joblib
+ortools
+matplotlib
+streamlit>=1.40
+folium
+streamlit-folium
+pillow
+paho-mqtt>=2.0
+# optional: osmnx (real road network), tensorflow (Phase 2 classifier)
