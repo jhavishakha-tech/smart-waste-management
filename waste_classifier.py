@@ -8,7 +8,7 @@ import numpy as np
 
 CLASSES = ["plastic", "paper", "metal", "glass", "organic", "hazardous", "other"]
 # class -> smart-bin compartment (Indian dry / wet / hazardous segregation)
-COMPARTMENT = {"plastic": "Dry", "paper": "Dry", "metal": "Dry", "glass": "Dry",
+COMPARTMENT = {"plastic": "drywaste", "paper": "Dry", "metal": "Dry", "glass": "Dry",
                "organic": "Wet", "hazardous": "Hazardous", "other": "Reject"}
 COMPARTMENTS = ["Wet", "Dry", "Hazardous", "Reject"]
 CONF_THRESHOLD = 0.60        # below this the item goes to the 'Reject / manual check' compartment
